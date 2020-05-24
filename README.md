@@ -1,4 +1,4 @@
-# Tech Seed Cloud Monitoring
+# Demo Cloud Monitoring
  En este tutorial podremos crear y configurar un cluster en IBM Kubernetes Service, y revisar las métricas con el servicio de creado de Cloud Monitoring with Sysdig
 
 ## Uso de Cluster en IBM Cloud
@@ -44,9 +44,9 @@
 3. Seleccionamos el servicio: *Supervisión de IBM Cloud con Sysdig*
 4. Seleccionamos una región para este caso en particular usaremos *Dallas*
 5. Seleccionamos un plan de precios, para casos demostrativos utilizaremos *Prueba*
-6. En configurar su recurso, colocamos un nombre de servicio: *supervision-tech-seed*
+6. En configurar su recurso, colocamos un nombre de servicio: *demomp-sysdig*
 7. Seleccionamos un grupo de recursos: *Default*
-8. Colocamos una etiqueta (opcional): *tech-seed*
+8. Colocamos una etiqueta (opcional)
 9. IBM Platform metrics (Seleccionamos si deseamos tener todas la métricas de todos los servicios instanciados en la región)
 10. En la terminal vemos el estado del recurso creado para lo cual utilizamos:
 ```shell
@@ -75,10 +75,10 @@ curl -sL https://ibm.biz/install-sysdig-k8s-agent | bash -s -- -a  *aca_colocamo
 3. En la izquierda seleccionamos **DevOps (Nuevo)**
 4. Le damos click a *Crear cadena de herramientas*
 5. Nos salen los distintos tipos de herramientas, colocamos *Desarrollar una app de Kubernetes*
-6. Colocamos el nombre de nuestra cadena de herramientas: *tech-seed-toolchain*
+6. Colocamos el nombre de nuestra cadena de herramientas: *demomp-sysdig*
 7. Seleccionamos una region: *Dallas*
 8. Seleccionamos un grupo de recursos: *Default*
-9. En la URL del repositorio de origen: https://us-south.git.cloud.ibm.com/harry.bazalar1/hello-container
+9. En la URL del repositorio de origen: https://github.com/katherine2203/cloudNative-monitoring
 10. Seleccionamos **Delivery Pipeline**
 11. En clave de API de IBM Cloud, seleccionamos el botón **NEW**
 12. Nos sale un cuadro de dialogo, colocamos **OK**
