@@ -6,7 +6,7 @@
 ### Creando un cluster en IKS
  Creando un cluster clasico
  ```shell
- ibmcloud ks cluster create classic --name tech-seed-cluster
+ ibmcloud ks cluster create classic --name demomp-cluster
 ```
 
  Revisando los clusters existentes en nuestra cuenta (Este comando debe repetirse hasta que el state cambie a **normal**)
@@ -16,7 +16,7 @@
 
  Revisando los worker nodes de nuestro cluster
  ```shell
- ibmcloud ks worker ls --cluster tech-seed-cluster
+ ibmcloud ks worker ls --cluster demomp-cluster
  ```
  
 ### Configurando el cluster creado
@@ -26,7 +26,7 @@
 ```
  Configurar el cluster para utilizar kubetcl desde nuestro terminal
 ```shell
- ibmcloud ks cluster config --cluster tech-seed-cluster
+ ibmcloud ks cluster config --cluster demomp-cluster
  ``````
  Ver nuestros nodos
  ```shell
