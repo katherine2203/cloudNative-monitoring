@@ -71,7 +71,7 @@ curl -sL https://ibm.biz/install-sysdig-k8s-agent | bash -s -- -a  *aca_colocamo
 ### Habilitando la entrega continua en nuestro cluster de Kubernetes
 
 1. Ingresamos nuevamente a nuestro dashboard (https://cloud.ibm.com)
-2. En nuestro resumen de recursos seleccionamos *Clústeres* e ingresamos a **tech-seed-cluster**
+2. En nuestro resumen de recursos seleccionamos *Clústeres* e ingresamos a **demomp-cluster**
 3. En la izquierda seleccionamos **DevOps (Nuevo)**
 4. Le damos click a *Crear cadena de herramientas*
 5. Nos salen los distintos tipos de herramientas, colocamos *Desarrollar una app de Kubernetes*
