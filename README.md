@@ -50,7 +50,7 @@
 9. IBM Platform metrics (Seleccionamos si deseamos tener todas la métricas de todos los servicios instanciados en la región)
 10. En la terminal vemos el estado del recurso creado para lo cual utilizamos:
 ```shell
- ibmcloud resource service-instance supervision-tech-seed
+ ibmcloud resource service-instance demomp-sysdig
 ```
 Verificamos que el state esté marcado como: **active**
 
